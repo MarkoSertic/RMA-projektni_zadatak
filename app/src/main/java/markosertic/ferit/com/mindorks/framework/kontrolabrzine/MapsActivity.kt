@@ -158,7 +158,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             mp=MediaPlayer.create(this,R.raw.camerashuttersoundeffect)
             mp.start()
 
-            var newName: String = ""
+            var newName: String = " "
             val input = EditText(this)
             input.hint = "Unesite ime kamere"
             input.inputType = InputType.TYPE_CLASS_TEXT
