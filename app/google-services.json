@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559447702522",
+    "project_id": "kontrola-brzine",
+    "storage_bucket": "kontrola-brzine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559447702522:android:d1417027396be911428243",
+        "android_client_info": {
+          "package_name": "markosertic.ferit.com.mindorks.framework.kontrolabrzine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559447702522-je7odpf7tdrcif1hmcqqtl7mcjurk9oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0Hj5mVadQgY7agh8V_ArW7a3maDLRp50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559447702522-je7odpf7tdrcif1hmcqqtl7mcjurk9oj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

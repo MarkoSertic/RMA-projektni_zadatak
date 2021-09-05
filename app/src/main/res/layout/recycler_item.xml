@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="@id/card"
+        app:layout_constraintLeft_toLeftOf="@id/card"
+        app:layout_constraintRight_toLeftOf="@id/iv_delete"
+        android:text="Name"
+        android:textSize="24sp"
+        android:textAlignment="center"
+
+        />
+    <TextView
+        android:id="@+id/tv_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        app:layout_constraintLeft_toLeftOf="@id/card"
+        android:text="Latitude: "
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/tv_long"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_lat"
+        app:layout_constraintLeft_toLeftOf="@id/card"
+        android:text="Longitude: "
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_lat_num"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="@id/tv_lat"
+        app:layout_constraintLeft_toLeftOf="@id/tv_long_num"
+        android:text="48.2354363443"
+        />
+    <TextView
+        android:id="@+id/tv_long_num"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="@id/tv_long"
+        app:layout_constraintLeft_toRightOf="@id/tv_long"
+        android:text="48.2354363443"
+        android:layout_marginStart="8dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_delete_24"
+        app:layout_constraintRight_toRightOf="@id/card"
+        app:layout_constraintTop_toTopOf="@id/card"
+        app:layout_constraintBottom_toBottomOf="@id/card"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
